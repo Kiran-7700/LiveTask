@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Assessment</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <p><input type="text"  id="fst" placeholder="Enter first Number"></p>
+        <p><input type="text"  id="snd" placeholder="Enter Second Number"></p>
+
+        <div id="buttons" >
+            <p><button onclick="add()" class="btn">Add</button></p>
+            <p><button onclick="sub()" class="btn">Subtract</button></p>
+            <p><button onclick="mul()" class="btn">Multiply</button></p>
+            <p><button onclick="div()" class="btn">Divide</button></p>
+        </div>
+        <p id="res" style="display: none;">
+            Result : <span id="res2"></span>
+        </p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

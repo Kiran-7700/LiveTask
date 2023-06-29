@@ -1,0 +1,35 @@
+.main{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    background-color: rgba(250, 221, 188, 0.528);
+    padding: 50px;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+.btn{
+    background-color: rgb(166, 244, 186);
+    height: 40px;
+    width: 80px;
+    margin: 2px;
+    border: none;
+    border-radius: 15px;
+}
+#buttons{
+  display: grid;
+  grid-template-columns: 70px 70px 70px ;
+ gap: 15px;
+}
+input{
+    height: 30px;
+    width: 210px;
+    border: none;
+}
+#res{
+    margin-left: 65px;
+    font-size: 22px;
+}
